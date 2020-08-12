@@ -14,7 +14,7 @@ class blog (models.Model):
 	
 	comment=models.TextField(max_length=1000)
 	
-	choose=models.IntegerField(default=1)
+	#choose=models.IntegerField(default=1)
 	
 	last_edit=models.DateTimeField(auto_now=True)
 	
